@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    background-color: rgb(179, 157, 157);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+}
+.container{
+    background-color: rgb(30, 75, 96);
+    height: 20vh;
+    width: 70vh;
+    text-align: center;
+    padding-top: 3.25rem;
+    padding-bottom: 0.75rem;
+    box-shadow: 0px 5px 20px 5px rgb(0, 0, 0, 0.5);
+    border-radius: 1rem;
+}
+#count{
+    background-color: rgb(30, 75, 96);
+ 
+}
+.btn{
+    background-color: rgb(179, 157, 157);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 2px;
+    width: 30%;
+    height: 25%;
+}
+.btn:hover{
+    background-color: rgb(209, 203, 203);
+}
